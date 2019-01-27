@@ -1,0 +1,334 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  width: 100%;
+  max-width: 1173px;
+    margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.menu-logo{
+  display: flex;
+  align-items: center;
+}
+.name {
+  display: block;
+  font-weight: 800;
+  font-size: 16px;
+}
+.description{
+  margin-left: 9px;
+}
+.avatar {
+  width: 57px;
+height: 57px;
+background: url('https://pp.userapi.com/c831109/v831109514/10c1ac/C3g1_9w9DeI.jpg');
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+  position:relative
+}
+.menu-button {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+.menu-list a:after{
+  background-color: #2b2a2c;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.menu-list a:hover:after {
+    width: 100%;
+}
+.menu-list a:focus:after {
+    width: 100%;
+}
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url('https://pp.userapi.com/c846021/v846021744/1867b4/9ggGEUKBTKk.jpg') no-repeat right bottom;
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg{
+  background-color: #3a5898;
+}
+.instagram-bg{
+  background-color: #13578a;
+}
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons{
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.button-primary {
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o {
+  color: #6a696b;
+  background-color: transparent;
+  border: 1px solid #6a696b;\
+}
+.projects {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card {
+  height: 370px;
+  width: 370px;
+  border: 1px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card__image {
+  height: 300px;
+}
+.project-card__info{
+  padding: 19px 13px;
+}
+.landing-page {
+  background: url('https://partner.amarkets.org/wp-content/uploads/2016/06/chto-takoe-lending-peydzh-388x388.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.firm-page_one {
+  background: url('http://redlabs.pw/image/table/work_images/field/image/content-field/content/content-type-field/type/equality-field/id/equality/4/width/553/1/1.jpg') center;
+   background-size: cover;
+  background-repeat: no-repeat;
+}
+.firm-page_two{
+  background: url('http://gallery.srv3.ascont.ru/users/3517/photos/catalog/2d2b519c-208a-44f3-b196-bd08f2072cda.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.firm-page_three{
+  background: url('http://sozdanie-sajtov.net/wp-content/uploads/2017/09/file13.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.firm-page_four{
+  background: url('http://ru.webmotya.com/wp-content/uploads/2016/01/Skrinshot-sajta-firmy-komp.-pomoshhi.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.firm-page_five{
+  background: url('https://sochi.cat/images/web-studio/site-okna-sochi.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.firm-page_six{
+  background: url('https://i0.wp.com/inbenefit.com/wp-content/uploads/2018/01/%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8-html-%D1%81-%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%BE%D0%BC-15.jpg?ssl=1') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.firm-page_seven{
+  background: url('http://www.mobiledevice.ru/Images/22/News_22176_2_MD.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.firm-page_eight{
+  background: url('http://www.orgtop.com/images/new_portfolio/ur44.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-category{
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.about {
+  padding: 100px 0 70px;
+  margin-bottom: 105px;
+  background: url('') no-repeat left bottom;
+  background-size: 100%;
+  margin-right: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+.me-photo{
+  width: 542px;
+  height: 606px;
+  background: url('https://pp.userapi.com/c845218/v845218875/a5fa2/xHoQUcTF4v4.jpg') no-repeat center;
+margin-right: 160px;
+}
+.about-me__info {
+  max-width: 500px;
+}
+.about-me__info-title {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.lorem {
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-bottom: 52px;
+  line-height: 20px;
+  color: #717072;
+}
+.footer{
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a{
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+}
+.copyright{
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social__link{
+  font-size: 20px;
+  margin-right: 13px;
+}
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-button{
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 965px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+   .project-card {
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .descriptoin-small{
+    font-size: 10px;
+  }
+  .menu-list {
+    display: none;
+  }
+  .hero{
+    padding-bottom: 550px;
+    padding-top: 30px;
+  }
+  .container {
+    width: 95%;
+  }
+   .project-card {
+    width: 95%;
+     margin: 30px auto;
+  }
+  .me-photo {
+    display: none;
+  }
+  .footer-menu nav{
+    display: none;
+  }
+}
+
